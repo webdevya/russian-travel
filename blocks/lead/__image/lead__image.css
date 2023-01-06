@@ -1,0 +1,7 @@
+.lead__image {
+    object-fit: contain;
+    width: 100%;
+
+    /*убрать место под img*/
+    display: block;
+}

@@ -1,0 +1,14 @@
+.lead-intro-container {
+    margin: 0 auto;
+    box-sizing: border-box;
+    max-width: 948px;
+}
+
+
+
+@media screen and (max-width:1023) {
+    .lead-intro-container {
+        width: 100%;
+        margin: 0;
+    }
+}

@@ -1,0 +1,8 @@
+.place__website {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 0;
+    padding: 0;
+    align-self: end;
+}
