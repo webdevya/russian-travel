@@ -1,14 +1,20 @@
 .lead {
-    /* display: flex;
-    flex-direction: row; */
-    width: 100%;
-    margin-top: 56px;
-
+    margin: 56px auto 0;
+    max-width: 984px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
-@media screen and (max-width:1279) {
-    .lead-intro-container {
-        margin-top: 48px;
+@media screen and (max-width:1279px) {
+    .lead {
+        margin: 48px 48px 0;
+    }
+}
+
+@media screen and (max-width:1023px) {
+    .lead {
+        margin: 0 auto;
     }
 }
